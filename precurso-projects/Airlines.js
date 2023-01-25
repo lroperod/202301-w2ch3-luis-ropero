@@ -9,7 +9,7 @@
  * El usuario visualizará todos los vuelos disponibles de una forma amigable: El vuelo con origen: Barcelona, y destino: Madrid tiene un coste de XXXX€ y no realiza ninguna escala.
  * A continuación, el usuario verá el coste medio de los vuelos.
  * También podrá ver cuantos vuelos efectúan escalas.
- * Y, sabiendo que los ultimos 5 vuelos (los últimos 5 ID's) son los últimos del día, muestra al usuario sus destinos.
+ * Y sabiendo que los ultimos 5 vuelos (los últimos 5 ID's) son los últimos del día, muestra al usuario sus destinos.
  */
 
 const prompt = require("prompt-sync")({ sigint: true });
