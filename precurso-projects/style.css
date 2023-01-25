@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    padding: 2px;
+    margin: 10px auto;
+    background-color: grey;
+    
+}
+.buttons{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4,100px);
+}
+.buttons > button{
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 50px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.output{
+    background-color: #000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+.output .display{
+    width: 370px;
+    height: 95px;
+    font-size: 100px;
+    font-family: 'Roboto';
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color:#000;
+    color: gray;
+}
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 10px;
+    margin: 5px 0;
+    color: white;   
+}
+  
